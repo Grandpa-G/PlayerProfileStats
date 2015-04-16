@@ -85,7 +85,9 @@ namespace PlayerProfileStats
         }
         private void fillPlayerLoad()
         {
- 
+
+            if (ru.conn.dbType == null)
+                return;
             startDate = playerStart.Value;
 
             chartPlayerLoad.Series.Clear();
@@ -103,6 +105,8 @@ namespace PlayerProfileStats
         }
          private void loadPlayerAverageLoad_Click(object sender, EventArgs e)
         {
+            if (ru.conn.dbType == null)
+                return;
             startDate = playerStart.Value;
 
             if (Top10Avg24Hours.Checked)
@@ -117,6 +121,8 @@ namespace PlayerProfileStats
 
          private void loadPlayerCountLoad_Click(object sender, EventArgs e)
          {
+             if (ru.conn.dbType == null)
+                 return;
              startDate = playerStart.Value;
 
              if (top10Count24Hours.Checked)

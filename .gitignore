@@ -37,3 +37,8 @@ PlayerProfileStats/bin/Debug/PlayerProfileStats.vshost.exe.config
 PlayerProfileStats/bin/Debug/PlayerProfileStats.vshost.exe.manifest
 PlayerProfileStats/bin/Debug/PlayerProfileStats.exe.config
 PlayerProfileStats/bin/Debug/InventoryProfileStats.vshost.exe.manifest
+PlayerProfileStats/bin/Release/PlayerProfileStats.pdb
+PlayerProfileStats/bin/Release/PlayerProfileStats.exe.config
+PlayerProfileStats/bin/Release/PlayerProfileStats.vshost.exe
+PlayerProfileStats/bin/Release/PlayerProfileStats.vshost.exe.config
+PlayerProfileStats/bin/Release/PlayerProfileStats.vshost.exe.manifest

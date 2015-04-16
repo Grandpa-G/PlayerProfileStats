@@ -121,6 +121,8 @@ namespace PlayerProfileStats
 
             JObject results = Utils.GetHTTP(sendCommand);
             // this can be a string or null
+            if (results == null)
+                return null;
             string status = (string)results["status"];
             if (status.Equals("200"))
             {
