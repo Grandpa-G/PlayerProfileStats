@@ -1,0 +1,39 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+dlls
+obj
+assests
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+PlayerProfileStats/bin/Debug/InventoryProfileStats.vshost.exe.config
+PlayerProfileStats/bin/Debug/Newtonsoft.Json.dll
+PlayerProfileStats/bin/Debug/PlayerProfileStats.pdb
+PlayerProfileStats/bin/Debug/PlayerProfileStats.vshost.exe
+PlayerProfileStats/bin/Debug/PlayerProfileStats.vshost.exe.config
+PlayerProfileStats/bin/Debug/PlayerProfileStats.vshost.exe.manifest
+PlayerProfileStats/bin/Debug/PlayerProfileStats.exe.config
+PlayerProfileStats/bin/Debug/InventoryProfileStats.vshost.exe.manifest
